@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spencer May</title>
+    <style>
+        :root {
+            --backgroundColor: black;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--backgroundColor);
+        }
+
+        header {
+            background-color: var(--backgroundColor);
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 10px 0px 10px 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius:25px;
+        }
+
+        .topmain {
+            font-size: 60px;
+            font-family: cursive
+        }
+
+        h2 {
+            color: var(--backgroundColor);
+        }
+
+        p {
+            color: #555;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: var(--backgroundColor);
+            color: #ffffff;
+            text-align: center;
+            padding: 0em 0.2em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Existing styles */
+
+        /* Media query for tablets and larger screens */
+        @media only screen and (min-width: 768px) {
+            header {
+                font-size: 1.5em;
+            }
+
+            .topmain {
+                font-size: 2em;
+            }
+
+            .subtext {
+                font-size: 0.9em;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+
+        /* Media query for desktops and larger screens */
+        @media only screen and (min-width: 1024px) {
+            header {
+                font-size: 2em;
+            }
+
+            .topmain {
+                font-size: 3em;
+            }
+
+            .subtext {
+                font-size: 1em;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="topmain"> Spencer May</h1>
+        <p class="subtext">
+            <a href="https://github.com/mayjspencer" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com/in/spencer-j-may/" target="_blank">LinkedIn</a>
+        </p>
+    </header>
+
+    <section>        
+        <h2>About Me</h2>
+        <h2>Work Experience</h2>
+        <h2>Projects</h2>
+
+    </section>
+
+    <section>
+        <h2>About Me</h2>
+        <ul>
+            <li>I am studying Computer Science at the University of Oklahoma with minors in General Business and Economics</li>
+            <li>4th year student</li>
+            <li>Graduating December 2024</li>
+            <li>First Generation College Student</li>
+            <li>Currently a Student Videographer at the University of Oklahoma Football</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <div class="experience">
+        <h4>Resident Advisor - University of Oklahoma Student Affairs</h4>
+        <h6>July 2021 - May 2022</h6>
+        <p></p>
+        </div>
+
+        <div class="experience">
+        <h4>Student Videographer - University of Oklahoma Football</h4>
+        <h6>July 2021 - May 2022</h6>
+        <p></p>
+        </div>
+
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Nim Game Project</h3>
+            <p>Classic game that I implemented as a final project of an introduction Java class.</p>
+            <p><strong>Technologies:</strong> Java</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/mayjspencer/nim-game-project" target="_blank">Nim Game Project</a></p>
+        </div>
+
+        <div class="project">
+            <h3>AES Encryption Point-to-Point Messaging System</h3>
+            <p>Messaging system that protects data with AES Encryption</p>
+            <p><strong>Technologies:</strong> Python</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/mayjspencer/Encrypted-Messaging-Project" target="_blank">AES Encryption Project</a></p>
+        </div>
+    </section>
+
+
+    <footer>
+        <p> Spencer May | Contact: mayjspencer@gmail.com</p>
+    </footer>
+
+
+</body>
+
+</html>
