@@ -5,20 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--CSS Styles -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Favicons -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="assets/icons/apple-touch-icon.png"
+      href="icons/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/icons/favicon-32x32.png"
+      href="icons/favicon-32x32.png"
     />
 
     <!-- Animate CSS CDN -->
@@ -26,17 +26,100 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <title>Jane Doe | Web Developer</title>
+    <title>Spencer May | Computer Science Student</title>
   </head>
 
   <body>
     <!-- Navbar -->
+    <nav>
+        <h1>Spencer May</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
 
     <!-- Hero Section -->
-
+    <section class="hero" id="about">
+        <img
+          src="images/OU-logo.png"
+          alt="spencer-may"
+          loading="lazy"
+          class="hero-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">About Me</h2>
+            <p class="bio-text">
+                Hello! I'm Spencer May, a Computer Science major at the University of Oklahoma in Norman. Currently navigating my fourth year, I'm on track to graduate in December 2024.
+            </p>
+        </div>
+    </section>
     <!-- More about -->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <br>
+        <p>
+            Beyond the world of tech, I've found my creative hobby as a Student Videographer at the University of Oklahoma Football. Capturing and conveying the excitement of game day allows me to merge my technical skills with a love for football.
+        </p>
+        <br>
+        <p>
+            Throughout my academic journey, I've honed my problem-solving abilities and developed a keen eye for detail. I'm excited to share my coding projects and experiences with you as I continue to learn more skills from my time at OU!
+        </p>
+      </section>
 
     <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+  
+        <div class="skills-wrapper">
+          <div class="first-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-html-5.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-css3.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-javascript.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+  
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-bootstrap.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-react-native.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-git.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+        </div>
+      </section>
 
     <!-- Projects section -->
 
