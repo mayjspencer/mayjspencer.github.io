@@ -8,7 +8,7 @@
   --bolder-font: 900;
   --bg-color: #fcfcfc;
   --primary-color: #000000;
-  --secondary-color: #dd8888;
+  --secondary-color: #cf76dd;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
@@ -133,4 +133,120 @@ nav {
   .more-about p {
     line-height: var(--line-height);
     padding: 0.4rem;
+  }
+
+  .skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 8.875rem;
+    height: 11.25rem;
+  }
+
+  .icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .projects {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+  }
+  
+  .project-pic {
+    width: 65%;
+    height: %;
+  }
+  
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projects-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .project-container {
+    position: relative;
+    text-align: center;
+    width: 21.875rem;
+    height: 28.875rem;
+    padding: 1rem;
+  }
+
+  .project-container p {
+    padding: .4rem;
+  }
+  
+  .project-title {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .project-details {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .project-link {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .github-logo {
+    width: 40px; /* Adjust size as needed */
+    margin-top: 5px; /* Adjust as needed */
+  }
+  
+  .project-image {
+    margin-top: 5px; /* Add some spacing between the text and image */
+  }
+  
+  .project-text {
+    color: black;
+    text-decoration: underline;
+    margin-top: 5px; /* Adjust as needed */
+  }
+  
+  .socials {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 50%;
+    bottom: 1%;
+  }
+
+  .socicon {
+    width: 2rem;
+    height: 2rem;
   }
