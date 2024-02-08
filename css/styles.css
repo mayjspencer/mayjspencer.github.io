@@ -6,7 +6,7 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
+  --bg-color: #ffffff;
   --primary-color: #000000;
   --secondary-color: #cf76dd;
   --primary-shadow: #8b8eaf;
@@ -91,6 +91,7 @@ nav {
   }
 
   .hero {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,10 +99,12 @@ nav {
     max-width: 68.75rem;
     margin: auto;
   }
-
+  
   .hero img {
-    height:40rem;
-    width: 30rem;
+    height: 37.5rem;
+    width: 100%;
+    position: relative;
+    z-index: -1;
   }
   
   .bio {
@@ -109,6 +112,10 @@ nav {
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    text-align: center;
+    position: absolute;
+    z-index: 0;
+    background-color: var(--bg-color);
   }
   
   .bio h1 {
@@ -140,12 +147,14 @@ nav {
     margin: auto;
     text-align: center;
     margin-top: 2.5rem;
+    background-color: var(--bg-color);
   }
   
   .skill-header {
     margin-bottom: 1rem;
+    
   }
-  
+
   .skills-wrapper img {
     padding: 1.25rem;
   }
@@ -156,7 +165,7 @@ nav {
   }
 
   .icon-card {
-    background-color: #fff;
+    background-color: var(--bg-color);
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--secondary-shadow);
     padding: 20px;
@@ -222,6 +231,7 @@ nav {
     flex-direction: column;
     align-items: center;
   }
+
   
   .github-logo {
     width: 40px; /* Adjust size as needed */
@@ -299,18 +309,63 @@ nav {
     }
 
     .hero {
-      margin-top: 2rem;
+      margin-top: 0rem;
       flex-direction: column;
       gap: 10;
     }
   
     .hero img {
           height: 27rem;
-          width: 20rem;
+          width: 100%;
     }
   
     .bio {
       margin-top: .1rem;
       width: 20.5rem;
     }
+
+    .more-about {
+      margin-top: 2rem;
+      padding: 1rem 3.5rem;
+    }
+  
+    .more-about h2 {
+      text-align: center;
+    }
+  
+    .more-about p {
+      text-align: justify;
+    }
+  
+    .icon {
+      width: 5.875rem;
+      height:7.5rem;
+    }
+
+    .projects-container {
+      flex-direction: column;
+    }
+  
+    .project-container {
+      width: 20.875rem;
+    }
   }
+
+  @media screen and (max-width: 420px) {
+    .hero img {
+      height: 37.5rem;
+      width: 23rem;
+    }
+  
+    .bio {
+      width: 18.3rem;
+    }
+  
+    .project-container {
+      width: 17.875rem;
+    }
+  
+    .contact-form-container {
+      max-width: 17.75rem;
+    }
+  } 
