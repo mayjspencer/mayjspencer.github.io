@@ -101,7 +101,7 @@ nav {
   }
   
   .hero img {
-    height: 37.5rem;
+    height: auto;
     width: 100%;
     position: relative;
     z-index: -1;
