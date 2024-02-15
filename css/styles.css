@@ -353,8 +353,8 @@ nav {
 
   @media screen and (max-width: 420px) {
     .hero img {
-      height: 37.5rem;
-      width: 23rem;
+      height: auto;
+      width: 100%;
     }
   
     .bio {
