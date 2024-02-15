@@ -352,9 +352,31 @@ nav {
   }
 
   @media screen and (max-width: 420px) {
+    .hero {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 2.5rem;
+      max-width: 68.75rem;
+      margin: auto;
+    }
+    
     .hero img {
-      height: 50px;
+      height: 100px;
       width: 100%;
+      position: relative;
+      z-index: -1;
+    }
+    
+    .bio {
+      width: 25rem;
+      padding: 0.625rem;
+      border-radius: 6px;
+      box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+      text-align: center;
+      position: absolute;
+      z-index: 0;
+      background-color: var(--bg-color);
     }
   
     .bio {
