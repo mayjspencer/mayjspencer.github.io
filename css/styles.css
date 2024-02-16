@@ -269,18 +269,6 @@ nav {
     margin: 2rem 0 0;
   }
 
-  .scroll-up {
-    position: fixed;
-    right: .5%;
-    bottom: 3%;
-    cursor: pointer;
-  }
-
-  .up-arrow {
-    width: 3rem;
-    height: 3rem;
-  }
-
   @media screen and (max-width: 720px) {
     nav {
       padding: 1.5rem 1rem;
