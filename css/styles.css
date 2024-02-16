@@ -130,7 +130,7 @@ nav {
 
   .more-about {
     background-color: var(--bg-color);
-    padding: 1rem 6rem;
+    padding: 2rem 6rem;
   }
   
   .more-about h2 {
@@ -391,5 +391,10 @@ nav {
   
     .contact-form-container {
       max-width: 17.75rem;
+    }
+
+    .more-about {
+      background-color: var(--bg-color);
+      padding: 3rem 6rem;
     }
   } 
